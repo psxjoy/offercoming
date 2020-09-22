@@ -34,7 +34,7 @@ import java.util.Map;
 // @lc code=start
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        Map<Integer,Integer> map = new HashMap<>();
+        Map<Integer,Integer> map = new HashMap<>(16);
         for(int i=0;i<nums.length;i++) {
             int anotherNum = target-nums[i];
             if(map.containsKey(anotherNum)) {
