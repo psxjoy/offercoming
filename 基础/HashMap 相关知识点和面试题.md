@@ -27,7 +27,7 @@ HashMap 在Java7 和Java8 中的数据结构不一样。Java7 中就是纯粹的
 
 因为数组总是有限的，所以哈希一定数量的元素后，就会出现不同的key，hash到了同一个位置上。这就会形成链表。Node 的每个节点都会保存自身的hash、key、value、以及下一个节点。
 
-![HashMap扩容示意图](./HashMap扩容示意图.jpg)
+![HashMap扩容示意图](http://normalupdate.oss-cn-hangzhou.aliyuncs.com/2020-09-23-HashMap%E6%89%A9%E5%AE%B9%E7%A4%BA%E6%84%8F%E5%9B%BE.jpg)
 
 数组的容量是有限的，因此到达一定的数量就会进行扩容，也就是resize。
 
